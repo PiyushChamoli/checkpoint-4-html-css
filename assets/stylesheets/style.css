@@ -418,6 +418,9 @@ a {
     overflow-x: auto;
     height: 30vh;
 }
+.client-col::-webkit-scrollbar {
+    display: none;
+}
 .client-col-img {
     max-width: 15rem;
     padding: 1rem 3rem;
@@ -1139,6 +1142,9 @@ a {
     .client-col {
         max-height: 15vh;
     }
+    .client-col-img {
+        filter: none;
+    }
 
     /*Testimonial Section*/
     .testimonial {
@@ -1160,6 +1166,9 @@ a {
     }
     .about img {
         padding: 0rem;
+    }
+    .client-col-img {
+        filter: none;
     }
     .cl-col-circle {
         left: 45%;
