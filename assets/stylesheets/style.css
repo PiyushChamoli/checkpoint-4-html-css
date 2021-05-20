@@ -249,7 +249,7 @@ a {
     top: 2.5rem;
     display: none;
 }
-.sub-drop-down:hover .sub-drop-down-col {
+.sub-drop-down:hover ~ .sub-drop-down-col {
     display: inline-block;
 }
 
